@@ -4,9 +4,9 @@ var Usuario = require('../modelos/usuarios');
 
 function inicio(req, res) {
 	res.status(200).send({
-		nome: 'Luan',
+		nome: 'luis',
 		idade: '18',
-		apelido: 'lulu',
+		apelido: 'luix',
 	});
 }
 
